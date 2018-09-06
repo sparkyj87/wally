@@ -1,0 +1,13 @@
+{
+  "name": "Wally",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-rebuild": "^1.6.0"
+  },
+  "dependencies": {
+    "wallpaper": "^2.5.0",
+    "wallpaper-macos": "^1.0.1"
+  }
+}

@@ -1,0 +1,97 @@
+html,
+body {
+    -webkit-app-region: drag;
+}
+
+button:focus {
+    outline:0 !important;
+}
+
+#title-bar {
+    height: 24px;
+    padding: none;
+}
+
+#title {
+    font-family: 'Megrim', cursive;
+    top: 0px;
+    left: 5px;
+    margin: 0px;
+}
+
+#header {
+   -webkit-app-region: no-drag;
+    text-align: center;
+    color: white;
+    -webkit-user-select: none;
+}
+
+#title-bar-btns {
+    position: fixed;
+    top: 0px;
+    left: 6px;
+}
+
+button.menu-btns {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+#input-container {
+    margin-left: 4%;
+    padding-left: 1%;
+    padding-bottom: 6%;
+    border-bottom: 2px solid #FFFFFF;
+    width: 80%;
+}
+
+#add-icon {
+  /* vertical-align: baseline; */
+  padding-top: 1%;
+  float: right;
+  width: 4.5%;
+}
+
+input {
+    vertical-align: baseline;
+    float: left;
+    height: 100%;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    width: 95%;
+
+    font-family: 'Open Sans', cursive;
+    font-size: 22px;
+    color: white;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #FFFFFF;
+}
+
+input:focus {
+    outline:0 !important;
+}
+
+#next-btn {
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+  background-color:rgba(0,0,0,0);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding:2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  -webkit-transition-duration: 0.4s; /*Safari */
+  transition-duration: 0.4s;
+  overflow:hidden;
+  cursor: pointer;
+
+  font-family: 'Raleway', cursive;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+}
